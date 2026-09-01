@@ -1,4 +1,4 @@
-# Lotus3K — Modern Terminal Spreadsheet
+# Exel — Modern Terminal Spreadsheet
 
 A CSV editor / simple Excel alternative inspired by Lotus 1‑2‑3 but built with
 **Textual** (modern TUI framework), running in the terminal with mouse + keyboard
