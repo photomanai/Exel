@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Lotus3K — Terminal-based, modern-looking CSV / spreadsheet editor.
+Exel — Terminal-based, modern-looking CSV / spreadsheet editor.
 Inspired by Lotus 1-2-3, but built with Textual (modern TUI framework)
 as an "Excel alternative". Features mouse + keyboard support, formula support,
 command palette, and theme support.
@@ -298,8 +298,8 @@ class ConfirmScreen(ModalScreen[bool]):
 # Main application
 # --------------------------------------------------------------------------
 
-class Lotus3K(App):
-    TITLE = "Lotus3K — Terminal Spreadsheet"
+class Exel(App):
+    TITLE = "Exel — Terminal Spreadsheet"
     SUB_TITLE = "new file"
 
     CSS = """
@@ -567,7 +567,7 @@ class Lotus3K(App):
 
 def main():
     initial = sys.argv[1] if len(sys.argv) > 1 else None
-    app = Lotus3K(initial_file=initial)
+    app = Exel(initial_file=initial)
     app.run()
 
 

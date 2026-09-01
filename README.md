@@ -66,7 +66,7 @@ python3 app.py data.csv        # start by opening an existing CSV file
 ## File Structure
 
 ```
-lotus3k/
+Exel/
 ├── app.py            # Full application (single file, ~450 lines)
 ├── requirements.txt
 └── README.md
